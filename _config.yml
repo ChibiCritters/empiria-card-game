@@ -1,11 +1,11 @@
 ### GENERAL SETTINGS ###
 
 # Site settings
-title: SOLID.
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+title: Empiria
+description: "The free to print and play board game."
 analytics: #Google analytics code in the format XX-nnnnnnnn-n
-baseurl: "" #important: start with /
-url: "http://yourdomain.com"
+baseurl: "/empiria-card-game" #important: start with /
+url: "http://idmontie.github.io"
 
 # Build settings
 markdown: kramdown
@@ -20,8 +20,8 @@ colors:  #in hex code if not noted else
   link_hover: "#01b2fe"
   footer_heading: "#ffffff"
   footer_content: "#bfc9d3"
-  
-  
+
+
 ### CONTACT SETTINGS ###
 
 # Social networks usernames. Many more available: google-plus, flickr, linkedin, etc). Shown in footer.
@@ -36,7 +36,7 @@ social:
     url: 
   - title: tumblr
     url: 
-    
+
 # Postal address (add as many lines as necessary). Shown in footer and on Contact page.
 address:
   - lines: 
@@ -48,7 +48,7 @@ tel: +34 8493-4893
 
 
 ### GENERAL DATA FOR VARIOUS LOCATIONS ###
-    
+
 # Members information. Shown on About page.
 members:
   - name: Mark Webber
