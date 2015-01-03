@@ -26,33 +26,27 @@ colors:  #in hex code if not noted else
 
 # Social networks usernames. Many more available: google-plus, flickr, linkedin, etc). Shown in footer.
 social:
-  - title: dribbble
-    url:
-  - title: facebook
-    url:
-  - title: twitter
-    url: 
-  - title: instagram
-    url: 
-  - title: tumblr
-    url: 
+  # - title: dribbble
+  #   url:
+  # - title: facebook
+  #   url:
+  # - title: twitter
+  #   url: 
+  # - title: instagram
+  #   url: 
+  # - title: tumblr
+  #   url: 
 
 # Postal address (add as many lines as necessary). Shown in footer and on Contact page.
-address:
-  - lines: 
-    - Some Ave, 987,
-    - 23890, New York,
-    - United States.
-email: hello@solidtheme.com
-tel: +34 8493-4893
+
 
 
 ### GENERAL DATA FOR VARIOUS LOCATIONS ###
 
 # Members information. Shown on About page.
 members:
-  - name: Mark Webber
-    position: CEO
+  - name: Ivan Montiel
+    position: Game Designer
     text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
     img: team01.jpg
     social:
@@ -87,7 +81,7 @@ members:
         url: mailto:name@domain.com
       - title: twitter
         url: http://twitter.com/handle
-    
+
 # Clients information. Shown on Home and About pages.
 clients:
   - name: dribbble
@@ -98,9 +92,9 @@ clients:
     img: client03.png
   - name: VimeoPro
     img: client04.png
-    
+
 # Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
-about: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
+about: "=Empiria is a free to download, print, modify, and play board game built around the idea of empires and conquest."
 
 # Testimonial content. Shown on Home and About page. 
 testimonial:
