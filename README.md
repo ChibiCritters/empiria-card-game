@@ -1,7 +1,7 @@
 Empiria
 =======
 
-The print and play card game.
+The print and play board game.
 
 For 2-4 Players.
 
