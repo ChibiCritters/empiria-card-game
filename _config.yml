@@ -94,7 +94,7 @@ clients:
     img: client04.png
 
 # Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
-about: "=Empiria is a free to download, print, modify, and play board game built around the idea of empires and conquest."
+about: "Empiria is a free to download, print, modify, and play board game built around the idea of empires and conquest."
 
 # Testimonial content. Shown on Home and About page. 
 testimonial:
