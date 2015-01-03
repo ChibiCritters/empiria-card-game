@@ -388,7 +388,7 @@ a:focus {
 ################################################################# */
 /* General Tweaks */
 
-#blue {
+#green {
 	background: {{ site.colors.primary }};
 	margin-top: 60px;
 	margin-bottom: 60px;
@@ -396,7 +396,9 @@ a:focus {
 	padding-bottom: 25px;
 }
 
-#blue h3 {
+#green h1,
+#green h2,
+#green h3 {
 	color: white;
 	margin-left: 15px;
 }
