@@ -23,10 +23,11 @@
 (function($) {
 	"use strict";
 	var $container = $('.portfolio'),
-		$items = $container.find('.portfolio-item'),
+		$items = $container.find('.portfolio-item, .blog-item'),
 		portfolioLayout = 'fitRows';
 		
-		if( $container.hasClass('portfolio-centered') ) {
+		if( $container.hasClass('portfolio-centered') ||
+		    $container.hasClass('blog-centered') ) {
 			portfolioLayout = 'masonry';
 		}
 				
