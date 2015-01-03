@@ -22,7 +22,7 @@
 // Portfolio
 (function($) {
 	"use strict";
-	var $container = $('.portfolio'),
+	var $container = $('.portfolio, .blog'),
 		$items = $container.find('.portfolio-item, .blog-item'),
 		portfolioLayout = 'fitRows';
 		
@@ -49,7 +49,7 @@
 			}, 1000);   
 		}
 				
-		$('nav.portfolio-filter ul a').on('click', function() {
+		$('nav.portfolio-filter ul a, nav.blog-filter ul a').on('click', function() {
 				var selector = $(this).attr('data-filter');
 				$container.isotope({ filter: selector }, refreshWaypoints());
 				$('nav.portfolio-filter ul a').removeClass('active');
@@ -80,7 +80,7 @@
 				columnNumber = getColumnNumber(), 
 				itemWidth = Math.floor(winWidth / columnNumber);
 				
-				$container.find('.portfolio-item').each(function() { 
+				$container.find('.portfolio-item, .blog-item').each(function() { 
 					$(this).css( { 
 					width : itemWidth + 'px' 
 				});
