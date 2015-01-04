@@ -212,7 +212,7 @@ a:focus {
 
 #headerwrap {
 	background-color:rgba({{ site.colors.primary_rgb }},.1);
-	min-height: 550px;
+	min-height: 350px;
 	padding-top: 100px;
 	padding-bottom: 0px;
 	text-align: center;
@@ -229,24 +229,15 @@ a:focus {
 }
 
 #headerwrap .photo-force {
-	position: relative;
-	top: -50%;
-	width: 100%;
-	height: 200%;
-	min-height: 550px;
-	overflow: hidden;
-	z-index: -1;
-}
-
-#headerwrap .photo-force img {
 	position: absolute;
 	top: 0;
 	left: 0;
 	right: 0;
-	bottom: 0;
-	margin: auto;
-	min-width: 100%;
-	min-height: 400px;
+	min-height: 350px;
+	overflow: hidden;
+	z-index: -1;
+	background-size: cover;
+	background-position: center center;
 }
 
 /* Services Wrap */
