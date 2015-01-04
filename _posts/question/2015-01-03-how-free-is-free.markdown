@@ -7,6 +7,8 @@ categories:
 - question
 ---
 
-## How free is free?
+Empiria is free to play.  Yup, completely free.
 
-This game is free to play.  All you need to do is download the assets, print them out, and get a couple of 52 card decks.
+The only cost to you is the cost of ink, paper, decks, and a little bit of time to get set up.
+
+All you need to do is download the assets, print them out, and get a couple of 52 card decks.
