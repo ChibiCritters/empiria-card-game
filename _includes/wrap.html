@@ -3,7 +3,10 @@
     <div class="row">
       {% if page.img %}
         <div class="photo-force" style="background-image: url({{ "/assets/img/blog/" | prepend: site.baseurl }}{{ page.img }})">
-      </div>
+        </div>
+      {% else %}
+        <div class="photo-force" style="background-image: url({{ "/assets/img/hills.jpeg" | prepend: site.baseurl }})">
+        </div>
       {% endif %}
 
       <h1>{% if page.wrap_title %}{{ page.wrap_title }}{% else %}{{ page.title }}{% endif %}</h1>
