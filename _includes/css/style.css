@@ -250,8 +250,8 @@ a:focus {
 
 /* Services Wrap */
 #service {
-	margin-top: 100px;
-	margin-bottom: 80px;
+	margin-top: 30px;
+	margin-bottom: 10px;
 }
 
 #service i {
@@ -264,7 +264,7 @@ a:focus {
 #portfoliowrap,
 #blogwrap {
 	padding-top: 60px;
-	margin-bottom: 60px;
+	margin-bottom: 0;
 	display: block;
 	text-align: center
 }
@@ -309,7 +309,7 @@ a:focus {
 .tpl6 .dmbutton
 {
 	display:inline-block;
-	margin:30px 5px 20px 5px;
+	margin: -10px 5px 20px 5px;
 	font-size:13px;
 }
 
