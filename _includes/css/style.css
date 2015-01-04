@@ -214,7 +214,7 @@ a:focus {
 	background-color:rgba({{ site.colors.primary_rgb }},.1);
 	min-height: 350px;
 	padding-top: 75px;
-	padding-bottom: 0px;
+	padding-bottom: 50px;
 	position: relative;
 	text-align: center;
 }
