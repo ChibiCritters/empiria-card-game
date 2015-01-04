@@ -1,7 +1,12 @@
 <div id="green">
-    <div class="container">
-        <div class="row">
-            <h1>{% if page.wrap_title %}{{ page.wrap_title }}{% else %}{{ page.title }}{% endif %}</h1>
-        </div><!-- /row -->
-    </div> <!-- /container -->
+  <div class="container">
+    <div class="row">
+      {% if page.img %}
+        <div class="photo-force" style="background-image: url({{ "/assets/img/blog/" | prepend: site.baseurl }}{{ page.img }})">
+      </div>
+      {% endif %}
+
+      <h1>{% if page.wrap_title %}{{ page.wrap_title }}{% else %}{{ page.title }}{% endif %}</h1>
+    </div><!-- /row -->
+  </div> <!-- /container -->
 </div><!-- /green -->
