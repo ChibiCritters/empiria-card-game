@@ -351,9 +351,9 @@ a:focus {
 
 .tpl6 .img-responsive {
 	display: block;
-	max-width: 200%;
-	height: 159px;
-	margin-left: -40px;
+	max-width: 100%;
+	min-height: 159px;
+	margin-left: 0;
 }
 
 .he-wrap {
