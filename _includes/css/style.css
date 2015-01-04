@@ -298,23 +298,20 @@ a:focus {
 }
 
 
-.tpl6 h3
-{
+.tpl6 h3 {
 	color:#fff;
 	margin:0;
 	padding:40px 5px 0;
 	font-size:16px;
 	text-transform:uppercase;
 }
-.tpl6 .dmbutton
-{
+.tpl6 .dmbutton {
 	display:inline-block;
 	margin: -10px 5px 20px 5px;
 	font-size:13px;
 }
 
-.tpl6 .bg
-{
+.tpl6 .bg {
 	height:100%;
 	width:100%;
 	background-color:{{ site.colors.primary }};
@@ -322,21 +319,32 @@ a:focus {
 	text-align:center;
 }
 
+.tpl6 .img-responsive {
+	display: block;
+	max-width: 200%;
+	height: 159px;
+	margin-left: -40px;
+}
+
+.he-wrap {
+	overflow: hidden;
+}
+
 /* Testimonials Wrap */
 #twrapback {
-    background-color: {{ site.colors.primary }};
-    background-color:rgba({{ site.colors.primary_rgb }},.8);
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+  background-color: {{ site.colors.primary }};
+  background-color:rgba({{ site.colors.primary_rgb }},.8);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 #twrap {
-    background: url(../img/t-back.jpg) no-repeat center top;
-    position: relative;
-    margin-top: 0px;
+  background: url(../img/t-back.jpg) no-repeat center top;
+  position: relative;
+  margin-top: 0px;
 	padding-top:60px;
 	text-align:center;
 	background-attachment: relative;
@@ -344,15 +352,15 @@ a:focus {
 	min-height: 450px;
 	width: 100%;
 	
-    -webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    -o-background-size: 100%;
-    background-size: 100%;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 #twrap i {
