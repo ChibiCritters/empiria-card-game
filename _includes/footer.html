@@ -1,24 +1,24 @@
 <div id="footerwrap">
     <div class="container">
         <div class="row">
-            <div class="col-lg-4">
+            <div class="col-md-4">
                 <h4>About</h4>
                 <div class="hline-w"></div>
                 <p>{{ site.about }}</p>
-                <p><br/><a href="{{ "/about/" | prepend: site.baseurl }}" class="btn btn-theme">More Info</a></p>
+                <p><br/><a href="{{ "/about/" | prepend: site.baseurl }}" class="btn btn-primary">More Info</a></p>
             </div>
 
-            <div class="col-lg-4">
+            <div class="col-md-4">
                 <h4>Frequently Asked</h4>
-                <div class="hline"></div>
+                <div class="hline-w"></div>
                 {% for post in site.categories['question'] %} 
                     <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></p>
                 {% endfor %}
             </div>
 
-            <div class="col-lg-4">
+            <div class="col-md-4">
                 <h4>Latest Posts</h4>
-                <div class="hline"></div>
+                <div class="hline-w"></div>
                 {% for post in site.categories['blog'] limit:5 %} 
                     <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}.</a></p>
                 {% endfor %} 
