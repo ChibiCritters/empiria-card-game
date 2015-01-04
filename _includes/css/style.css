@@ -211,7 +211,7 @@ a:focus {
 ################################################################# */
 
 #headerwrap {
-	background-color:rgba({{ site.colors.primary_rgb }},.1);
+	background-color: rgba({{ site.colors.primary_rgb }},.1);
 	min-height: 350px;
 	padding-top: 75px;
 	padding-bottom: 50px;
@@ -418,11 +418,13 @@ a:focus {
 /* General Tweaks */
 
 #green {
-	background: {{ site.colors.primary }};
+	background: rgba(0, 0, 0, .1);
 	margin-top: 40px;
 	margin-bottom: 40px;
 	padding-top: 25px;
 	padding-bottom: 25px;
+	position: relative;
+	min-height: 250px;
 }
 
 #green h1,
@@ -430,6 +432,19 @@ a:focus {
 #green h3 {
 	color: white;
 	margin-left: 15px;
+}
+
+#green .photo-force {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	min-height: 150px;
+	overflow: hidden;
+	z-index: -1;
+	background-size: cover;
+	background-position: center center;
 }
 
 .ctitle {
