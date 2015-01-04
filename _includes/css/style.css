@@ -211,7 +211,7 @@ a:focus {
 ################################################################# */
 
 #headerwrap {
-	background-color: {{ site.colors.primary }};
+	background-color:rgba({{ site.colors.primary_rgb }},.1);
 	min-height: 550px;
 	padding-top: 100px;
 	padding-bottom: 0px;
@@ -228,8 +228,15 @@ a:focus {
 	margin-bottom: 25px;
 }
 
-#headerwrap .img-responsive {
-	margin: 0 auto;
+#headerwrap .photo-force {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	min-height: 550px;
+	width: 100%;
+	z-index: -1;
 }
 
 /* Services Wrap */
