@@ -2,10 +2,10 @@
 
 # Site settings
 title: Empiria
-description: "The free to print and play board game."
+description: "Empiria focuses on finding new ways to play with your standard 52-Card deck for both single and multiplayer games."
 analytics: UA-58200120-1
 baseurl: "/empiria-card-game"
-url: "http://idmontie.github.io"
+url: "http://chibicritters.github.io"
 
 # Build settings
 markdown: kramdown
@@ -74,7 +74,7 @@ members:
 #     img: client04.png
 
 # Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
-about: "Empiria is a free to download, print, modify, and play board game built around the idea of empires and conquest."
+about: "Empiria focuses on finding new ways to play with your standard 52-Card deck for both single and multiplayer games."
 
 # Testimonial content. Shown on Home and About page. 
 # testimonial:
