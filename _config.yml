@@ -2,7 +2,7 @@
 
 # Site settings
 title: Empiria
-description: "Empiria focuses on finding new ways to play with your standard 52-Card deck for both single and multiplayer games."
+description: "Find new ways to play with your standard 52-Card deck for both single and multiplayer games."
 analytics: UA-58200120-1
 baseurl: "/empiria-card-game"
 url: "http://chibicritters.github.io"
@@ -21,22 +21,6 @@ colors:
   link_hover: "#284907"
   footer_heading: "#ffffff"
   footer_content: "#D8CAA8"
-
-
-### CONTACT SETTINGS ###
-
-# Social networks usernames. Many more available: google-plus, flickr, linkedin, etc). Shown in footer.
-social:
-  # - title: dribbble
-  #   url:
-  # - title: facebook
-  #   url:
-  # - title: twitter
-  #   url: 
-  # - title: instagram
-  #   url: 
-  # - title: tumblr
-  #   url: 
 
 
 ### GENERAL DATA FOR VARIOUS LOCATIONS ###
@@ -62,22 +46,5 @@ members:
       - title: twitter
         url: http://twitter.com/nagoshiasumari
 
-# Clients information. Shown on Home and About pages.
-# clients:
-#   - name: dribbble
-#     img: client01.png
-#   - name: Code is Poetry
-#     img: client02.png
-#   - name: Vimeo
-#     img: client03.png
-#   - name: VimeoPro
-#     img: client04.png
-
 # Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
-about: "Empiria focuses on finding new ways to play with your standard 52-Card deck for both single and multiplayer games."
-
-# Testimonial content. Shown on Home and About page. 
-# testimonial:
-#     message: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
-#     author: Marcel Newman
-#     position: WEB DESIGNER - BLACKTIE.CO
+about: "Find new ways to play with your standard 52-Card deck for both single and multiplayer games."
